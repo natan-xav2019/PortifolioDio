@@ -50,7 +50,8 @@
 }
 
 .accordion.open .content {
-    display: inline-block;
+    display: block;
     height: auto;
+    padding: 0 1rem 1rem 2rem;
     opacity: 1;
 }
