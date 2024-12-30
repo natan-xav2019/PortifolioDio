@@ -14,14 +14,14 @@ body {
     color: white;
 }
 
-.main {
+main {
     margin: 1rem;
     padding: 1rem;
     border: 1px solid #fff;
     border-radius: 0.5rem;
 }
 
-.main::before, .main::after {
+main::before, main::after {
     content: '';
     background-image: url('/assets/image/background.svg');
     background-repeat: no-repeat;
@@ -34,7 +34,7 @@ body {
     z-index: -1;
 }
 
-.main::after {
+main::after {
     content: '';
     top: auto;
     left: auto;
@@ -44,13 +44,13 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
-    .main {
+    main {
         max-width: 1024px;
         margin: 0 auto;
         margin-top: 1rem;
     }
 
-    .main::after, .main::before {
+    main::after, main::before {
         width: 70vw;
     }
 }
