@@ -19,12 +19,17 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    font-size: 1.5rem;
-    font-weight: 700;
     background-color: transparent;
     color: #fff;
     border: none;
     cursor: pointer;
+}
+
+.accordion .trigger h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: start;
 }
 
 .accordion .trigger::after {
