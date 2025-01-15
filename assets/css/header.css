@@ -15,7 +15,7 @@
     height: 2rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url('/assets/image/icons/header.svg');
+    background-image: url('../image/icons/header.svg');
 }
 
 .header .photo {
@@ -55,19 +55,19 @@
 }
 
 .information  .job::before {
-    background-image: url('/assets/image/icons/job.svg');
+    background-image: url('../image/icons/job.svg');
 }
 
 .information  .location::before {
-    background-image: url('/assets/image/icons/location.svg');
+    background-image: url('../image/icons/location.svg');
 }
 
 .information  .email::before {
-    background-image: url('/assets/image/icons/email.svg');
+    background-image: url('../image/icons/email.svg');
 }
 
 .information  .phone::before {
-    background-image: url('/assets/image/icons/phone.svg');
+    background-image: url('../image/icons/phone.svg');
 }
 
 @media only screen and (min-width: 768px) {
