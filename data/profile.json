@@ -54,6 +54,18 @@
       "Português BR",
       "Inglês (Intermediário)"
     ],
+    "portfolio": [
+      {
+        "name":"Pokedex",
+        "url": "https://github.com/natan-xav2019/pokedex",
+        "git": true
+      },
+      {
+        "name":"Todo List",
+        "url": "https://github.com/natan-xav2019/Todolist",
+        "git": true
+      }
+    ],
     "educacao": [
       {
         "nome": "dio.me",
@@ -112,18 +124,6 @@
           "inicio": "2007",
           "fim": "2011"
         }
-      }
-    ],
-    "portfolio": [
-      {
-        "nome": "Crie o seu NFT de Pokémon com Blockchain (DIO)",
-        "gitHub": "https://github.com/digitalinnovationone/formacao-blockchain-dio",
-        "certificado": "https://www.dio.me/certificate/34F1FBA1"
-      },
-      {
-        "nome": "App Nativo Sobre Futebol Feminino com Android Jetpack e Java (DIO)",
-        "gitHub": "https://github.com/digitalinnovationone/soccer-news-app",
-        "certificado": "https://www.dio.me/certificate/9A5090FC"
       }
     ],
     "experiencias": [

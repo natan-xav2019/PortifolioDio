@@ -26,7 +26,6 @@ function updateSoftSkills(profileData) {
     const softSkillsList = document.getElementById('profile.softSkills')
     
     softSkillsList.innerHTML = profileData.skills.softSkills.map(skill => `<li>${skill}</li>`)
-
 }
 
 function updateHardSkills(profileData) {
@@ -46,10 +45,23 @@ function updateLanguages(profileData) {
     }).join('')
 }
 
+function updatePortfolio(profileData) {
+    const portfolio = document.getElementById('profile.portfolio')
+    portfolio.innerHTML = profileData.portfolio.map(portfolio => {
+        return `
+            <li>
+                <h3 ${portfolio.git ? "class='github title'": 'class="title"'}>${portfolio.name}</h3>
+                <a href="${portfolio.url}" target="_blank">${portfolio.url}</a>
+            </li>
+        `
+    }).join('')
+}
+
 (async () => {
     const profileData = await fetchProfileData()
     updateProfileInfo(profileData)
     updateSoftSkills(profileData)
     updateHardSkills(profileData)
     updateLanguages(profileData)
+    updatePortfolio(profileData)
 })()
